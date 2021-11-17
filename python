@@ -1,25 +1,101 @@
 1. operators
-
 x=5
 y=4
-
 Arithmetic
 print(x+y)
 print(x-y)
 print(x/y)
 print(x*y)
 
-comparision
+Comparison
 print(x>y)
 print(x<y)
 print(x==y)
 print(x>=y)
 print(x<=y)
 
+Assignment
+X = X + 5
+X = X - 5
+X = X * 5
+X = X / 5
+
+
 logical
 x= True
 y= False
 
 print('x and y is',x and y)
+print('x or y is',x and y)
+print('not x is',not x)
+
+
+
+2. odd or even 
+
+a=11
+if(a%2==0):
+    print("Eeven num")
+else:
+    print("Odd number")
+    
+o/p = odd number
+    
+    
+3. leap year
+
+year=2021
+if((year % 400 == 0) or
+    (year % 100 != 0) and
+        (year % 4 == 0)):
+    print("leap year")
+else:
+    print("not a leap year")
+    
+ o/p - not a leap year
+ 
+ 4. five functions of list
+ 
+lan=['Engish','Kannada','Hindi']
+
+to fetch the value
+print(lan[0])
+o/p -Engish
+
+reverse the list
+print(lan[::-1])
+o/p- ['Hindi', 'Kannada', 'Engish']
+
+Append an element
+lan.append("punjabi")
+print(lan)
+o/p- ['Engish', 'Kannada', 'Hindi', 'punjabi']
+
+Insert an element at specific index
+lan.insert(2,'Tamil')
+print(lan)
+o/p- ['Engish', 'Kannada', 'Tamil', 'Hindi', 'punjabi']
+
+removing an element
+lan.remove('Tamil')
+print(lan)
+o/p- ['Engish', 'Kannada', 'Hindi', 'punjabi']
+
+5. for and while loop
+
+for loop
+
+val = range(1,11,2)
+for i in val:
+   print(i)
+      
+while loop
+
+i=1
+while i<=4:
+print(i)
+i=i+1
+    
+
 
 
