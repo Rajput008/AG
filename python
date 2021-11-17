@@ -1,17 +1,25 @@
-operators
+1. operators
 
 x=5
 y=4
 
+Arithmetic
 print(x+y)
 print(x-y)
 print(x/y)
 print(x*y)
+
+comparision
 print(x>y)
 print(x<y)
 print(x==y)
 print(x>=y)
 print(x<=y)
 
+logical
+x= True
+y= False
+
+print('x and y is',x and y)
 
 
